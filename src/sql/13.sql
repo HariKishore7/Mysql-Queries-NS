@@ -1,1 +1,2 @@
 -- Query all the flights with origin, destnation, duration and sort them in decreasing order by duration where origin and destination should be the names form locations table
+select origin,destination,destination,duration from flight inner join locations on flights.id=locations.id group bt duration desc;

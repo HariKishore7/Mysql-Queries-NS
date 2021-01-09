@@ -4,3 +4,4 @@
 -- Output format
 -- max_duration
 -- 800
+select MAX(duration) as max_duration from flights;

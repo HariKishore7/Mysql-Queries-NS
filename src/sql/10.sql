@@ -7,3 +7,5 @@
 -- 1  3         3        895
 -- 4  3         2        480
 -- 3  3         1        340
+
+select * from flight where origin="New York";
